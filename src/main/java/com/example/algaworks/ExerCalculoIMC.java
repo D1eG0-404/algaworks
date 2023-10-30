@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ExerCalculoIMC {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Bem-vindo ao programa que indica o seu IMC");
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
 
