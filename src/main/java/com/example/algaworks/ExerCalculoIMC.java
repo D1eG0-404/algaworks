@@ -10,14 +10,11 @@ public class ExerCalculoIMC {
         System.out.println("Bem-vindo ao programa que indica o seu IMC");
         System.out.println("Digite sua altura: ");
         double altura = scanner.nextDouble();
-
         System.out.println("Digite seu peso: ");
         double peso = scanner.nextDouble();
-
         double resAltura = altura * altura;
         double result = peso / resAltura;
         System.out.println("Seu indice de massa corpória é de: " +result);
-
         scanner.close();
     }
 }
