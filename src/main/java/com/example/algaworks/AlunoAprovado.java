@@ -15,7 +15,9 @@ public class AlunoAprovado {
         System.out.println();
         System.out.println("================================================");
 
-        double media = 7.5;
+        //A média foi convertida em uma constante, para evitar que essa váriavel sofra alteraões futuras.
+        //Casa seja necessário altera a média apenas esse ponto precisa ser editado, o resto do código seguirá funcionando.
+        final double media = 7.5;
         System.out.println("Informe sua nota do primeiro bimestre");
         double b1 = scanner.nextDouble();
         System.out.println("Informe sua nota do segungo bimestre");
