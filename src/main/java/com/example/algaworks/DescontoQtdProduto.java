@@ -10,7 +10,6 @@ public class DescontoQtdProduto {
         //Base de dado do programa para realizar o calculo
         double desconto = 10.0;
         double nDesconto = 0.0;
-        double valorParcial = 0;
         double valorTotal = 0.0;
 
         System.out.print("Informe o valor unitário do produto: ");
