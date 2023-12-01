@@ -54,7 +54,6 @@ public class Exercise04Calculator {
             result = firstNum/secondNum;
         }if(operation==3){
             result = firstNum+secondNum;
-
         }else if (operation ==4){
             result = firstNum-secondNum;
         }
